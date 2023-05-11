@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+:root{
+    --facebook: #3b5998;
+    --linkedin: #0077b5;
+    --github: #333;
+}
+
+body{
+    width: 940px;
+}
+
+
+.logolatam{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+    float: left;
+    animation:  movimiento 2.5s linear infinite;
+}
+
+.amigos{
+    position: absolute;
+    right: 0; 
+    font-family: 'Bungee Spice', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    margin-right: 270px;
+    margin-top: 30px;
+
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-btn{
+    position: absolute;
+    left: 5%;
+    text-transform: lowercase;
+}
+
+.text-area{
+    border: none;
+    color: #e0730d;
+    margin-top: 150px;
+    margin-left: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{ color: #e0730d}
+ .text-area:focus{ 
+    outline: none;
+ }
+
+ .informacion{
+    font-family: 'Bungee Spice', cursive;
+    color: #495057;
+    font-size: 24px;
+    margin-left: 90px;
+    position: absolute;
+ }
+
+ .botones{
+    display: flex;
+    margin-top: 100px;
+    
+ }
+
+ .button-encriptar{
+    font-family: 'Bungee Spice', cursive;
+    background-color: #0d0e0d;
+    border: 2px solid #e0730d;
+    border-radius: 24px;
+    color: #fff;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    position: relative;
+    z-index: 2;
+ }
+
+ .button-encriptar:hover{
+    transform: scale(1.10);
+    transition: .5s;
+ }
+
+
+ .button-desencriptar{
+    font-family: 'Bungee Spice', cursive;
+    background: #e8ebeb;
+    border: 2px solid #e0730d;
+    border-radius: 24px;
+    color: #3b5998;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    z-index: 2;
+ }
+ 
+ .button-desencriptar:hover{
+    transform: scale(1.10);
+    transition: .5s;
+ }
+
+.mensaje-copiar{
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 100px;
+}
+
+.mensaje{
+    background: #fff;
+    background-repeat: no-repeat;
+    border: 1px solid #e0730d;
+    border-radius: 24px;
+    color: #e0730d;
+    margin-left: 180px;
+    margin-top: 20px;
+    padding-left: 5px;
+ }
+
+ .mensaje:focus{ 
+    outline: none;
+ }
+
+ .copiar{
+    font-family: 'Bungee Spice', cursive;
+    background: #3b5998;
+    border: 2px solid #e0730d;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 210px;
+    margin-top: 2px;
+    position: absolute;
+    width: 336px;
+ }
+
+ .copiar:hover{
+    transform: scale(1.10);
+    transition: .5s;
+ }
+
+.rayoslaser {
+    width: 150px; 
+    height: 28px; 
+    background: #e20b0b;
+    rotate: 90deg;
+    border-radius: 70px;
+    box-shadow: 5px 5px 5px 5px #000000;
+    position: absolute;
+    bottom: 110px;
+    z-index: 0;
+    animation: matrix 3s linear infinite;
+}
+
+.rayoslaser:nth-child(1){
+    background: #7bd125;
+    left: 2%;
+    scale: .8;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.rayoslaser:nth-child(2){
+    background: #7e69dd;
+    left:35%;
+    scale: 1;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.rayoslaser:nth-child(3){
+    background: #0b2fcf;
+    left:15%;
+    scale: .4;
+    animation-duration: 2.5s;
+    animation-delay: 7s;
+}
+
+.rayoslaser:nth-child(4){
+    background: #7e69dd;
+    left:90%;
+    scale: .5;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+
+.rayoslaser:nth-child(5){
+    background: #7bd125;
+    left:65%;
+    scale: .7;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.rayoslaser:nth-child(6){
+    background: #7bd125;
+    left:50%;
+    scale: .3;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.rayoslaser:nth-child(7){
+    left:57%;
+    scale: .5;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.rayoslaser:nth-child(8){
+    left:51%;
+    scale: .65;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.rayoslaser:nth-child(9){
+    background: #0b2fcf;
+    left:52%;
+    scale: 1;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+.rayoslaser:nth-child(10){
+    left:35%;
+    scale: .4;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+.rayoslaser:nth-child(11){
+    background: #7e69dd;
+    left:12%;
+    scale: .6;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+.rayoslaser:nth-child(12){
+    background:#beb20a ;
+    left:7%;
+    scale: .6;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+.rayoslaser:nth-child(13){
+    background: #beb20a;
+    left:85%;
+    scale: .4;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.rayoslaser:nth-child(14){
+    background: #0b2fcf;
+    left:80%;
+    scale: 1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+footer{
+    background: url(bg.jpg);
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+
+.redes-container{
+    display : flex;
+    justify-content: right;
+    margin-right: 5%;
+    margin-top: 90px;
+
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}   
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0,.2);
+}
+
+.redes-container ul:hover a{
+    filter: blur(2px); 
+}
+
+.redes-container ul li a:hover{
+    transform: translateY(3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0,.4);
+    filter: none;
+}
+
+.redes-container ul li .facebook:hover{
+    background: var(--facebook);
+}
+
+.redes-container ul li .linkedin:hover{
+    background: var(--linkedin);
+}
+
+.redes-container ul li .github:hover{
+    background: var(--github);
+}
+
+@keyframes matrix{
+    0%{position: absolute;
+        bottom: 110px;
+        opacity: 0;
+    }
+    65%{
+       translate: translateX(50px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom:100vh;
+        opacity: 0;
+    }
+}
+   
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width:480px){}
+  
