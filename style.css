@@ -369,6 +369,9 @@ footer{
 }
 
 @media screen and (max-width:360px){
+    body{
+        max-width: 360px;
+    }
 
     .logolatam{
         position: absolute;
@@ -413,15 +416,15 @@ footer{
         position: absolute;
     }
 
-    .button-desencriptar{
-        margin-top: 100%;
-        margin-left: -40%;
-        scale: .5;
-    }
-
     .button-encriptar{
         margin-top: 100%;
         margin-left: -43%;
+        scale: .5;
+    }
+
+    .button-desencriptar{
+        margin-top: 100%;
+        margin-left: -40%;
         scale: .5;
     }
 
@@ -441,6 +444,10 @@ footer{
 }
 
 @media screen and ( min-width:361px) and (max-width: 376px){
+
+    body{
+        max-width: 376px;
+    }
 
     .logolatam{
         position: absolute;
@@ -486,17 +493,18 @@ footer{
         position: absolute;
     }
 
-    .button-desencriptar{
-        margin-top: 110%;
-        margin-left: -40%;
-        scale: .5;
-    }
-
     .button-encriptar{
         margin-top: 110%;
         margin-left: -38%;
         scale: .5;
 
+    }
+
+
+    .button-desencriptar{
+        margin-top: 110%;
+        margin-left: -40%;
+        scale: .5;
     }
 
     .copiar{
@@ -506,7 +514,6 @@ footer{
     }
 
     
-
   footer{
     width: 100%;
 
@@ -515,6 +522,10 @@ footer{
 }
 
 @media screen and ( min-width:377px) and (max-width: 415px){
+
+    body{
+        max-width: 415px;
+    }
 
     .logolatam{
         position: absolute;
@@ -546,13 +557,13 @@ footer{
 
     .mensaje{
         margin-top: 21%;
-        margin-left: 19%;
+        margin-left: 15%;
         scale: .6;
     }
 
     .informacion{
         margin-top: 98%;
-        margin-left: -50%;
+        margin-left: -45%;
         scale: .5;
     }
     .botones{
@@ -584,6 +595,52 @@ footer{
   }
 
 }
+
+@media screen and ( min-width:1700px) and (max-width: 2000px){
+
+    .logolatam{
+        position: absolute;
+        top: 0;
+    }
+
+    .amigos{
+        position: absolute;
+        margin-right: 30%;
+        padding-top: 2%;
+        text-align: center;
+        font-size: 25px;
+        scale: 1.5;
+    }
+
+    .text-area{
+        margin-top: 25%;
+    }
+
+    .mensaje{
+        margin-top: 25%;
+        margin-left: 130%;
+        scale: 1.5;
+    }
+
+    .button-encriptar{
+        margin-top: 25%;
+    }
+
+    .button-desencriptar{
+        margin-top: 25%;
+        margin-left: 10%;
+       
+    }
+
+    .copiar{
+        margin-top: 4%;
+        margin-left: 66%;
+       
+    }
+
+}
+
+
 
 
 
