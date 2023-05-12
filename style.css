@@ -15,6 +15,7 @@
 
 body{
     width: 940px;
+    height: 100vh;
 }
 
 .logolatam{
@@ -42,13 +43,17 @@ main{
     margin-left: 80px;
 }
 
-.text-btn{
+.textarea{
+    width: 940px;
+    height: 100vh;
     position: absolute;
     left: 5%;
     text-transform: lowercase;
 }
 
 .text-area{
+    position: absolute;
+    width: 940px;
     border: none;
     color: #e0730d;
     margin-top: 150px;
@@ -61,17 +66,41 @@ main{
     outline: none;
  }
 
+ .mensaje{
+    text-align: center;
+    background: #fff;
+    background-repeat: no-repeat;
+    border: 1px solid #e0730d;
+    border-radius: 24px;
+    color: #e0730d;
+    margin-left: 113%;
+    margin-top: 12%;
+    padding-left: 5px;
+ }
+
+ ::placeholder{
+   padding-top: 15px;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+
+ .mensaje:focus{ 
+    outline: none;
+ }
+
  .informacion{
     font-family: 'Bungee Spice', cursive;
     color: #495057;
     font-size: 24px;
+    margin-top: 35%;
     margin-left: 90px;
     position: absolute;
  }
 
  .botones{
+    width: 100%;
     display: flex;
-    margin-top: 100px;
+    margin-top: 75%;
     
  }
 
@@ -112,35 +141,6 @@ main{
     transition: .5s;
  }
 
-.mensaje-copiar{
-    position: absolute;
-    right: 0;
-    margin-right: 15px;
-    margin-top: 100px;
-}
-
-.mensaje{
-    text-align: center;
-    background: #fff;
-    background-repeat: no-repeat;
-    border: 1px solid #e0730d;
-    border-radius: 24px;
-    color: #e0730d;
-    margin-left: 180px;
-    margin-top: 20px;
-    padding-left: 5px;
- }
-
- ::placeholder{
-   padding-top: 15px;
-   padding-left: 15px;
-   padding-right: 15px;
- }
-
- .mensaje:focus{ 
-    outline: none;
- }
-
  .copiar{
     font-family: 'Bungee Spice', cursive;
     background: #3b5998;
@@ -148,10 +148,11 @@ main{
     border-radius: 24px;
     cursor: pointer;
     height: 67px;
-    margin-left: 203px;
-    margin-top: 2px;
+    margin-left: 69%;
+    margin-top: -7.5%;
     position: absolute;
     width: 336px;
+    z-index: 2;
  }
 
  .copiar:hover{
@@ -367,7 +368,7 @@ footer{
     }
 }
 
-@media screen and (max-width:415px){
+@media screen and (max-width:360px){
 
     .logolatam{
         position: absolute;
@@ -380,58 +381,201 @@ footer{
         padding-top: 9%;
         text-align: center;
         font-size: 15px;
-
     }
-   
+
+
+    .textarea, .text-area, .botones{
+      margin: auto;
+      padding-left: auto;  
+      width: 100%;  
+    }
+
     .text-area{
         position: absolute;
-        margin-top: 150px;
-        margin-left: 2px;
-        text-align: center;
-        font-size: 8px;
+        margin-left: -35%;
+        margin-top: 1%;
+        scale: .4;
+        padding-left: 30px;
+    }
+
+    .mensaje{
+        margin-top: 10%;
+        margin-left: 15%;
+        scale: .5;
     }
 
     .informacion{
-        position: absolute;
-        margin-top: 350px;
-        margin-left: 5px;
-        text-align: center;
-        font-size: 10px;
-       
+        margin-top: 80%;
+        margin-left: -70%;
+        scale: .3;
     }
-
-    .mensaje-copiar{
+    .botones{
         position: absolute;
-        right: 0;
-        scale: .5;
-    
-       }
-    
-       .mensaje{
-        margin-left: 52%;
-       }
-
-    .button-encriptar{
-        width: 415px;
-        position: absolute;
-        margin-top: 385px;
-        scale: .5;
-    
     }
 
     .button-desencriptar{
-        width: 415px;
-        position: absolute;
-        margin-top: 490px;
-        margin-left: 0px;
+        margin-top: 100%;
+        margin-left: -40%;
         scale: .5;
     }
+
+    .button-encriptar{
+        margin-top: 100%;
+        margin-left: -43%;
+        scale: .5;
+    }
+
+    .copiar{
+        margin-top: 87%;
+        margin-left: -20%;
+        scale: .5;
+    }
+
     
-    .redes-container{
-       width: 415px;
-       align-content: center;
-       margin: 80px 0 0 0 ;
-       scale: .8;
+
+  footer{
+    width: 100%;
+
+  }
+
+}
+
+@media screen and ( min-width:361px) and (max-width: 376px){
+
+    .logolatam{
+        position: absolute;
+        top: 0;
+        scale: .8;
+    }
+
+    .amigos{
+        position: absolute;
+        margin-right: 2%;
+        padding-top: 9%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    .textarea, .text-area, .botones{
+      margin: auto;
+      padding-left: auto;  
+      width: 100%;  
+    }
+
+    .text-area{
+        position: absolute;
+        margin-left: -35%;
+        margin-top: 1%;
+        scale: .4;
+        padding-left: 30px;
+    }
+
+    .mensaje{
+        margin-top: 5%;
+        margin-left: 19%;
+        scale: .5;
+    }
+
+    .informacion{
+        margin-top: 80%;
+        margin-left: -50%;
+        scale: .5;
+    }
+    .botones{
+        position: absolute;
+    }
+
+    .button-desencriptar{
+        margin-top: 110%;
+        margin-left: -40%;
+        scale: .5;
+    }
+
+    .button-encriptar{
+        margin-top: 110%;
+        margin-left: -38%;
+        scale: .5;
+
+    }
+
+    .copiar{
+        margin-top: 95%;
+        margin-left: -15%;
+        scale: .5;
+    }
+
+    
+
+  footer{
+    width: 100%;
+
+  }
+
+}
+
+@media screen and ( min-width:377px) and (max-width: 415px){
+
+    .logolatam{
+        position: absolute;
+        top: 0;
+    }
+
+    .amigos{
+        position: absolute;
+        margin-right: 2%;
+        padding-top: 9%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+    .textarea, .text-area, .botones{
+      margin: auto;
+      padding-left: auto;  
+      width: 100%;  
+    }
+
+    .text-area{
+        position: absolute;
+        margin-left: -35%;
+        margin-top: 15%;
+        scale: .4;
+        padding-left: 30px;
+    }
+
+    .mensaje{
+        margin-top: 21%;
+        margin-left: 19%;
+        scale: .6;
+    }
+
+    .informacion{
+        margin-top: 98%;
+        margin-left: -50%;
+        scale: .5;
+    }
+    .botones{
+        position: absolute;
+    }
+
+    .button-desencriptar{
+        margin-top: 120%;
+        margin-left: -35%;
+        scale: .5;
+    }
+
+    .button-encriptar{
+        margin-top: 120%;
+        margin-left: -34%;
+        scale: .5;
+
+    }
+
+    .copiar{
+        margin-top: 105%;
+        margin-left: -9%;
+        scale: .6;
     }
 
   footer{
@@ -440,4 +584,36 @@ footer{
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
