@@ -120,6 +120,7 @@ main{
 }
 
 .mensaje{
+    text-align: center;
     background: #fff;
     background-repeat: no-repeat;
     border: 1px solid #e0730d;
@@ -128,6 +129,12 @@ main{
     margin-left: 180px;
     margin-top: 20px;
     padding-left: 5px;
+ }
+
+ ::placeholder{
+   padding-top: 15px;
+   padding-left: 15px;
+   padding-right: 15px;
  }
 
  .mensaje:focus{ 
@@ -141,7 +148,7 @@ main{
     border-radius: 24px;
     cursor: pointer;
     height: 67px;
-    margin-left: 205px;
+    margin-left: 203px;
     margin-top: 2px;
     position: absolute;
     width: 336px;
