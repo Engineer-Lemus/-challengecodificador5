@@ -20,29 +20,22 @@ function btnCopiar(){
     textArea.focus();
 }
   
-function validateText() {
-    var textarea = document.getElementById(textArea);
-    var text = textarea.value.trim();
+function showErrorAnimation() {
+    swal ( "¡ Error ! " , " ¡Asegurate de solo poner letras minusculas sin caracteres especiales o numeros! " , "error" )   ;
+    textArea.focus();
+    console.log("Error: El texto contiene caracteres no válidos.");
+  }
+  
+function encriptar(stringEncriptada) {
 
-    var regex = /^[a-z]+$/;
-
-    if (regex.test(text)) {
-      
-      alert("Texto válido");
-    } else {
-     
-      textarea.classList.add("error");
-      textarea.addEventListener("animationend", removeErrorClass);
+    var textarea = document.querySelector('.text-area');
+    var text = textarea.value;
+  
+    var regex = /^[a-z\s]+$/;
+    if (!regex.test(text)) {
+      showErrorAnimation();
+      return;
     }
-  }
-
-  function removeErrorClass() {
-    var textarea = document.getElementById(textArea);
-    textarea.classList.remove("error");
-    textarea.removeEventListener("animationend", removeErrorClass);
-  }
-
-function encriptar(stringEncriptada){
     let codigoFuente = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     stringEncriptada = stringEncriptada.toLowerCase();
 
