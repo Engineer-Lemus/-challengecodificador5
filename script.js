@@ -35,8 +35,8 @@ function encriptar(stringEncriptada) {
 
     var textarea = document.querySelector('.text-area');
     var text = textarea.value;
-  
-    var regex = /^[a-z\s]+$/;
+
+    var regex = /^[a-z]+(?: [a-z]+)*$/;
     if (!regex.test(text)) {
       showErrorAnimation();
       return;

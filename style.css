@@ -102,6 +102,10 @@ main{
     transition: .5s;
  }
 
+ .botonesv2{
+    z-index: 2;
+}
+
  .mensaje{
     height: 52%;
     background: white;
@@ -116,7 +120,27 @@ main{
 
 }
 
-    #limpiarBtn{
+.copiar{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 22.2%;
+    font-family: 'Bungee Spice', cursive;
+    background: #3b5998;
+    border: 2px solid #e0730d;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    z-index: 1;
+    
+ }
+
+ .copiar:hover{
+    transform: scale(1.10);
+    transition: .5s;
+ }
+
+ #limpiarBtn{
     font-family: 'Bungee Spice', cursive;
     background: #e8ebeb;
     border: 2px solid #e0730d;
@@ -127,10 +151,10 @@ main{
     margin-left: 15%;
     margin-top: 152%;
     width: 328px;
-    z-index: 2;
+     
 }
 
-    #limpiarBtn:hover{
+#limpiarBtn:hover{
     transform: scale(1.10);
     transition: .5s;
  }
@@ -145,26 +169,6 @@ main{
     padding-left: 15px;
     padding-right: 15px;
   }
- 
-.copiar{
-    position: absolute;
-    margin-top: 23%;
-    margin-left: 22.2%;
-    font-family: 'Bungee Spice', cursive;
-    background: #3b5998;
-    border: 2px solid #e0730d;
-    border-radius: 24px;
-    cursor: pointer;
-    height: 67px;
-    width: 336px;
-    z-index: 2;
-    
- }
-
- .copiar:hover{
-    transform: scale(1.10);
-    transition: .5s;
- }
 
  .rayoslaser {
     opacity: 0;
@@ -310,7 +314,6 @@ footer{
     height: 200px;
     position: absolute;
     bottom: 0;
-    z-index: -1;
 }
 
 .redes-container{
@@ -318,7 +321,6 @@ footer{
     justify-content: right;
     margin-right: 5%;
     margin-top: 90px;
-
 }
 
 .redes-container ul li{
@@ -337,6 +339,7 @@ footer{
     line-height: 50px;
     font-size: 18px;
     box-shadow: 0 3px 5px 0px rgba(0, 0, 0,.2);
+
 }
 
 .redes-container ul:hover a{
@@ -388,6 +391,105 @@ translate: translateX(50px);
 100%{
     transform: translateY(0);
 }
+}
+
+@media screen and ( min-width:359px) and (max-width: 365px) and ( min-height:765px) and (max-height: 775px){
+
+body{
+    height: 100vh;
+}
+
+.logolatam{
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    scale: 1.5;
+}
+
+header h1{
+    position: absolute;
+    top: 0;
+    padding-top: 7%;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10%;
+}
+
+.textarea, .text-area, .botones{
+    margin: auto;
+    padding-left: auto;  
+    width: 361px;  
+}
+
+.botones{
+    position: absolute;
+    margin-left: -25%;
+}
+.text-area{
+    width: 100%;
+    position: absolute;
+    margin-left: -20%;
+    margin-top: -5%;
+    scale: .7;
+}
+
+.mensaje{
+    position: absolute;
+    margin-top: 79%;
+    scale: .7;
+    margin-left: -25.5%;
+}
+
+.informacion{
+    position: absolute;
+    margin-top: 70%;
+    margin-left: -6%;
+    font-size: 11px;
+}
+
+.button-desencriptar{
+    position: absolute;
+    margin-top: 73%;
+    margin-left: 32%;
+    scale: .5;
+}
+
+.button-encriptar{
+    position: absolute;
+    margin-top: 73%;
+    margin-left: -16%;
+    scale: .5;
+}
+
+.copiar{
+    position: absolute;
+    margin-top: 170%;
+    margin-left: 5%;
+    scale: .5;
+}
+
+#limpiarBtn{
+    position: absolute;
+    margin-top: 170%;
+    margin-left: -42%;
+    scale: .5;
+
+}
+
+.rayoslaser{
+    margin-left: -15%;
+    scale: .5;
+    margin-bottom: -45%;
+}
+
+
+footer{
+    position: absolute;
+    margin-bottom: -45%;
+    width: 100%;
+    }
+
 }
 
 @media screen and ( min-width:359px) and (max-width: 369px){
@@ -482,10 +584,10 @@ header h1{
 
 
 footer{
-position: absolute;
-margin-bottom: -45%;
-width: 100%;
-}
+    position: absolute;
+    margin-bottom: -45%;
+    width: 100%;
+    }
 
 }
 
@@ -583,10 +685,10 @@ header h1{
 
 
 footer{
-position: absolute;
-margin-bottom: -10%;
-width: 100%;
-}
+    position: absolute;
+    margin-bottom: -10%;
+    width: 100%;
+    }
 }
 
 
@@ -683,10 +785,10 @@ header h1{
 
 
 footer{
-position: absolute;
-margin-bottom: -10%;
-width: 100%;
-}
+    position: absolute;
+    margin-bottom: -10%;
+    width: 100%;
+    }
 }
 
 @media screen and ( min-width:395px) and (max-width: 415px){
@@ -782,10 +884,109 @@ header h1{
 
 
 footer{
-position: absolute;
-margin-bottom: -10%;
-width: 100%;
+    position: absolute;
+    margin-bottom: -10%;
+    width: 100%;
+    }
 }
+
+@media screen and ( min-width:410px) and (max-width: 430px) and ( min-height:920px) and (max-height: 930px){
+
+body{
+    height: 100vh;
+}
+
+.logolatam{
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    scale: 1.5;
+}
+
+header h1{
+    position: absolute;
+    top: 0;
+    padding-top: 7%;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 10%;
+    scale: .9;
+}
+
+.textarea, .text-area, .botones{
+    margin: auto;
+    padding-left: auto;   
+    width: 100%; 
+}
+
+.botones{
+    position: absolute;
+    margin-left: -25%;
+}
+.text-area{
+    width: 100%;
+    position: absolute;
+    margin-left: -19%;
+    margin-top: -2%;
+    scale: .7;
+}
+
+.mensaje{
+    position: absolute;
+    margin-top: 62%;
+    scale: .6;
+    margin-left: -22%;
+}
+
+.informacion{
+    position: absolute;
+    margin-top: 60%;
+    margin-left:-10%;
+    font-size: 13px;
+}
+
+.button-desencriptar{
+    position: absolute;
+    margin-top: 82%;
+    margin-left: 39%;
+    scale: .6;
+}
+
+.button-encriptar{
+    position: absolute;
+    margin-top: 82%;
+    margin-left: -18%;
+    scale: .6;
+}
+
+.copiar{
+    position: absolute;
+    margin-top: 153%;
+    margin-left: 8%;
+    scale: .5;
+}
+
+#limpiarBtn{
+    position: absolute;
+    margin-top: 153%;
+    margin-left: -39%;
+    scale: .5;
+
+}
+
+.rayoslaser{
+    margin-left: -15%;
+    scale: .5;
+    margin-bottom: -10%;
+}
+
+
+footer{
+    position: absolute;
+    margin-bottom: -10%;
+    width: 100%;
+    }
 }
 
 @media screen and ( min-width:370px) and (max-width: 376px) and ( min-height:800px) and (max-height: 820px){
@@ -1078,10 +1279,10 @@ header h1{
 }
 
 footer{
-position: absolute;
-margin-bottom: -10%;
-width: 100%;
-}
+    position: absolute;
+    margin-bottom: -10%;
+    width: 100%;
+    }
 
 .redes-container{
     scale: 1.2;
