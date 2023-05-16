@@ -1,6 +1,11 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
 
+var limpiarBtn = document.getElementById("limpiarBtn");
+limpiarBtn.addEventListener("click", function() {
+  location.reload();
+});
+
 function btnEncriptar(){
     let textoEncriptado = encriptar(textArea.value);
     mensaje.value = textoEncriptado;
@@ -25,7 +30,7 @@ function showErrorAnimation() {
     textArea.focus();
     console.log("Error: El texto contiene caracteres no válidos.");
   }
-  
+
 function encriptar(stringEncriptada) {
 
     var textarea = document.querySelector('.text-area');

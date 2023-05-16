@@ -9,32 +9,36 @@
          <title>DMLA G5 Encriptador </title>
          <link rel="shortcut icon" href="556120.png" type="image/png">
          <link rel="stylesheet" href="reset.css">
-         <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="test.css">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
         
          
     <body>
         <header>
-            <div class="box">
-                <img class="logolatam" src="alura-logo.webp" alt="logoalura"><h1> Has tu codigo y que tus amigos traten de descifrarlo</h1>
-            </div>
+                <img class="logolatam" src="alura-logo.webp" alt="logoalura">
+                <div>
+                    <h1> Has tu codigo y que tus amigos traten de descifrarlo</h1>
+                </div>
         </header>
 
         <main>
-                <section class="textarea">
-                    <textarea class="text-area" cols="30" rows="10"  placeholder="Ingrese su codigo a encriptar"></textarea>
-                    <textarea class="mensaje" cols="20" rows="10" placeholder="Esperando mensaje Encriptado o para Desencriptar"></textarea>     
-                </section>  
-                <div class="informacion">
-                    <h6>Solo letras minusculas y sin acentos</h6>
+                <section>
+                    <textarea class="text-area" cols="30" rows="10"  placeholder="Ingrese su codigo a encriptar"></textarea>    
+                <div>
+                    <h6 class="informacion">Solo letras minusculas y sin acentos</h6>
                 </div>
                 <div class="botones">
                     <button class="button-encriptar" onclick="btnEncriptar()" >Encriptar</button>
                     <button class="button-desencriptar" onclick="btndesEncriptar()">Desencriptar</button>
-                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
-                </div> 
-
+                </div>
+                </section>
+                <section>
+                    <textarea class="mensaje" cols="20" rows="10" placeholder="Esperando mensaje Encriptado o para Desencriptar"></textarea>
+                    <div>
+                        <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                        <button id="limpiarBtn">Limpiar</button>
+                    </div>
                 </section>
 
             <section class="animation-laser">
