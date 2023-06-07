@@ -21,6 +21,7 @@ function btndesEncriptar(){
 function btnCopiar(){
     mensaje.select();
     document.execCommand("copy");
+    swal ( " El texto fue copiado  " , " ¡ Utilizalo ahora ! " , "info" )   ;
     mensaje.value = "";
     textArea.focus();
 }
@@ -65,4 +66,16 @@ function desencriptar(stringDesencriptada){
        }
    }   
    return stringDesencriptada;
+}
+
+document.getElementById('id-sun').onclick = function(){
+  document.getElementById('page').classList.remove('dark-mode')
+  document.getElementById('id-moon').classList.remove('active')
+  this.classList.add('active')
+}
+
+document.getElementById('id-moon').onclick = function(){
+  document.getElementById('page').classList.add('dark-mode')
+  document.getElementById('id-sun').classList.remove('active')
+  this.classList.add('active')
 }

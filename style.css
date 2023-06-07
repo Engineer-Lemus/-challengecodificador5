@@ -39,12 +39,79 @@ main{
     margin-left: 80px;
 }
 
+.container-btn-mode{
+    position: absolute;
+    top:20px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 2;
+    font-size:0;
+  }
+
+  .container-btn-mode:hover{
+    transform: scale(1.10);
+    transition: .2s;
+ }
+
+  .btn-mode{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border:1px solid #e0730d;
+    transition: background-color .5s;
+  }
+
+  .btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+  }
+
+  .btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .active{
+    background-color:black;
+    color:#e0730d !important;
+  }
+ 
+  .dark-mode{
+    background-color: #1A1C1E;
+    transition:background-color 2s;
+  }
+
+  .dark-mode .card{
+    background-color: #1A1C1E;
+  }
+
+  .dark-mode h1, .dark-mode h2, .dark-mode .btn-contact{
+    color:white;
+  }
+
+  .dark-mode .btn-mode{
+    background-color:#1A1C1E;
+    border:1px solid white;
+    color:white;
+  }
+
 .text-area{
-    border: none;
+    border: #e0730d 2px solid;
+    border-radius: 24px;
     color: #e0730d;
     margin-left: 3em;
     text-transform: lowercase;
     height: 72%;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 ::placeholder{ color: #e0730d;}
@@ -1290,7 +1357,111 @@ footer{
     margin-left: 60%;
  }
 }
+   
+@media screen and ( min-width:740px) and (max-width: 760px) and ( min-height:1560px) and (max-height: 1600px){
+
+body{
+    height: 100vh;
+}
+
+.logolatam{
+    padding-top: 30px;
+    padding-left: 30px;
+    position: absolute;
+    top: 0;
+    scale: 1.5;
+}
+
+header h1{
+    position: absolute;
+    top: 0;
+    padding-top: 7%;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 13%;
+}
+
+.textarea, .text-area, .botones{
+    margin: auto;
+    padding-left: auto;   
+    width: 100%; 
+}
+
+.botones{
+    position: absolute;
+    margin-left: -25%;
+}
+.text-area{
+    width: 100%;
+    position: absolute;
+    margin-left: -14%;
+    margin-top: 10%;
+    scale: .8;
+}
+
+.mensaje{
+    position: absolute;
+    margin-top: 68%;
+    scale: .8;
+    height: 370px;
+    margin-left: -4%;
+}
+
+.informacion{
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.button-desencriptar{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 69%;
+    scale: .9;
     
+}
+
+.button-encriptar{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 23%;
+    scale: .9;
+}
+
+.copiar{
+    position: absolute;
+    margin-top: 79%;
+    margin-left: 43%;
+    scale: .9;
+}
+
+#limpiarBtn{
+    position: absolute;
+    margin-top: 93%;
+    margin-left: 43.5%;
+    scale: .9;
+
+}
+
+.rayoslaser{
+    margin-left: -15%;
+    scale: .5;
+    margin-bottom: -10%;
+}
+
+footer{
+    position: absolute;
+    margin-bottom: -10%;
+    width: 100%;
+    }
+
+.redes-container{
+    scale: 1.2;
+    margin-left: 60%;
+    }
+}
+      
 @media screen and ( min-width:800px) and (max-width: 825px){
 
 body{

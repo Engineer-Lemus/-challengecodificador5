@@ -12,10 +12,11 @@
          <link rel="stylesheet" href="style.css">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     </head>    
         
          
-    <body>
+    <body id="page">
         <header>
                 <img class="logolatam" src="alura-logo.webp" alt="logoalura">
                 <div>
@@ -24,6 +25,15 @@
         </header>
 
         <main>
+            <div class="container-btn-mode">
+                <div id="id-sun" class="btn-mode sun active">
+                   <i class="fas fa-sun"></i>
+                </div>
+                <div id="id-moon" class="btn-mode moon">
+                   <i class="fas fa-moon"></i>
+                </div>
+             </div>
+                
                 <section>
                     <textarea class="text-area" cols="30" rows="10"  placeholder="Ingrese su codigo a encriptar"></textarea>    
                 <div>
@@ -71,7 +81,7 @@
             </ul>   
          </div>
     </footer>
-    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script> 
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
     <script src="script.js"></script>
     </body>
 </html>
