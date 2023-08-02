@@ -461,105 +461,6 @@ translate: translateX(50px);
 }
 }
 
-@media screen and ( min-width:359px) and (max-width: 365px) and ( min-height:765px) and (max-height: 775px){
-
-body{
-    height: 100vh;
-}
-
-.logolatam{
-    padding-top: 10px;
-    padding-left: 10px;
-    position: absolute;
-    top: 0;
-    scale: 1.5;
-}
-
-header h1{
-    position: absolute;
-    top: 0;
-    padding-top: 7%;
-    text-align: center;
-    font-size: 15px;
-    margin-left: 10%;
-}
-
-.textarea, .text-area, .botones{
-    margin: auto;
-    padding-left: auto;  
-    width: 361px;  
-}
-
-.botones{
-    position: absolute;
-    margin-left: -25%;
-}
-.text-area{
-    width: 100%;
-    position: absolute;
-    margin-left: -20%;
-    margin-top: -5%;
-    scale: .7;
-}
-
-.mensaje{
-    position: absolute;
-    margin-top: 79%;
-    scale: .7;
-    margin-left: -25.5%;
-}
-
-.informacion{
-    position: absolute;
-    margin-top: 70%;
-    margin-left: -6%;
-    font-size: 11px;
-}
-
-.button-desencriptar{
-    position: absolute;
-    margin-top: 73%;
-    margin-left: 32%;
-    scale: .5;
-}
-
-.button-encriptar{
-    position: absolute;
-    margin-top: 73%;
-    margin-left: -16%;
-    scale: .5;
-}
-
-.copiar{
-    position: absolute;
-    margin-top: 170%;
-    margin-left: 5%;
-    scale: .5;
-}
-
-#limpiarBtn{
-    position: absolute;
-    margin-top: 170%;
-    margin-left: -42%;
-    scale: .5;
-
-}
-
-.rayoslaser{
-    margin-left: -15%;
-    scale: .5;
-    margin-bottom: -45%;
-}
-
-
-footer{
-    position: absolute;
-    margin-bottom: -45%;
-    width: 100%;
-    }
-
-}
-
 @media screen and ( min-width:359px) and (max-width: 369px){
 
 body{
@@ -571,16 +472,23 @@ body{
     padding-left: 10px;
     position: absolute;
     top: 0;
-    scale: 1.5;
+    scale: 1.1;
 }
 
 header h1{
     position: absolute;
-    top: 0;
-    padding-top: 7%;
+    top: 15px;
+    padding-top: 10%;
     text-align: center;
-    font-size: 15px;
-    margin-left: 10%;
+    font-size: 13px;
+    margin-left: 0%;
+}
+
+.container-btn-mode{
+    position: absolute;
+    margin-top: -1%;
+    margin-right: -10%;
+    scale: .5;
 }
 
 .textarea, .text-area, .botones{
@@ -595,50 +503,51 @@ header h1{
 }
 .text-area{
     width: 100%;
+    height: 300px;
     position: absolute;
-    margin-left: -20%;
-    margin-top: -5%;
-    scale: .7;
+    margin-left: -21%;
+    margin-top: 8%;
+    scale: .6;
 }
 
 .mensaje{
     position: absolute;
     margin-top: 79%;
-    scale: .7;
-    margin-left: -25.5%;
+    scale: .6;
+    margin-left: -26%;
 }
 
 .informacion{
     position: absolute;
-    margin-top: 70%;
+    margin-top: 80%;
     margin-left: -6%;
     font-size: 11px;
 }
 
 .button-desencriptar{
     position: absolute;
-    margin-top: 73%;
+    margin-top: 80%;
     margin-left: 32%;
     scale: .5;
 }
 
 .button-encriptar{
     position: absolute;
-    margin-top: 73%;
+    margin-top: 80%;
     margin-left: -16%;
     scale: .5;
 }
 
 .copiar{
     position: absolute;
-    margin-top: 170%;
+    margin-top: 150.5%;
     margin-left: 5%;
     scale: .5;
 }
 
 #limpiarBtn{
     position: absolute;
-    margin-top: 170%;
+    margin-top: 150.5%;
     margin-left: -42%;
     scale: .5;
 
@@ -676,11 +585,18 @@ body{
 header h1{
     position: absolute;
     top: 0;
-    padding-top: 7%;
+    padding-top: 12%;
     text-align: center;
     font-size: 17px;
     margin-left: 1%;
     scale: .8;
+}
+
+.container-btn-mode{
+    position: absolute;
+    margin-top: -1%;
+    margin-right: -10%;
+    scale: .5;
 }
 
 .textarea, .text-area, .botones{
@@ -696,52 +612,53 @@ header h1{
 }
 .text-area{
     width: 100%;
+    height: 350px;
     position: absolute;
     margin-left: -22%;
-    margin-top: -15%;
+    margin-top: -2%;
     scale: .5;
 }
 
 .mensaje{
     position: absolute;
-    margin-top: 60%;
+    margin-top: 62%;
     scale: .5;
-    margin-left: -22%;
+    margin-left: -24%;
 }
 
 .informacion{
     position: absolute;
-    margin-top: 60%;
-    margin-left: -5%;
+    margin-top: 70%;
+    margin-left: -10%;
     font-size: 12px;
 }
 
 .button-desencriptar{
     position: absolute;
-    margin-top: 85%;
+    margin-top: 89%;
     margin-left: 40%;
-    scale: .6;
+    scale: .5;
 }
 
 .button-encriptar{
     position: absolute;
-    margin-top: 85%;
+    margin-top: 89%;
     margin-left: -17%;
-    scale: .6;
+    scale: .5;
 }
 
 .copiar{
     position: absolute;
     margin-top: 135%;
     margin-left: 8%;
-    scale: .5;
+    scale: .45;
 }
 
 #limpiarBtn{
     position: absolute;
     margin-top: 135%;
     margin-left: -37%;
-    scale: .5;
+    scale: .45;
 
 }
 
@@ -776,18 +693,24 @@ body{
 
 header h1{
     position: absolute;
-    top: 0;
-    padding-top: 7%;
+    top: 15px;
+    padding-top: 13%;
     text-align: center;
-    font-size: 17px;
-    margin-left: 5%;
-    scale: .8;
+    font-size: 15px;
+    margin-left: 0%;
+}
+
+.container-btn-mode{
+    position: absolute;
+    margin-top: -1%;
+    margin-right: -10%;
+    scale: .5;
 }
 
 .textarea, .text-area, .botones{
     margin: auto;
-    padding-left: auto;
-    width: 100%;   
+    padding-left: auto;  
+    width: 361px;  
 }
 
 .botones{
@@ -796,51 +719,53 @@ header h1{
 }
 .text-area{
     width: 100%;
+    height: 300px;
     position: absolute;
     margin-left: -20%;
-    margin-top: -5%;
+    margin-top: 17%;
     scale: .7;
 }
 
 .mensaje{
+    height: 400px;
     position: absolute;
-    margin-top: 70%;
+    margin-top: 90%;
     scale: .6;
-    margin-left: -19%;
+    margin-left: -20%;
 }
 
 .informacion{
     position: absolute;
-    margin-top: 70%;
-    margin-left: -3%;
+    margin-top: 90%;
+    margin-left: -6%;
     font-size: 12px;
 }
 
 .button-desencriptar{
     position: absolute;
-    margin-top: 75%;
-    margin-left: 37%;
+    margin-top: 100%;
+    margin-left: 38%;
     scale: .5;
 }
 
 .button-encriptar{
     position: absolute;
-    margin-top: 75%;
-    margin-left: -11%;
+    margin-top: 100%;
+    margin-left: -10%;
     scale: .5;
 }
 
 .copiar{
     position: absolute;
-    margin-top: 160%;
-    margin-left: 12%;
+    margin-top: 172%;
+    margin-left: 8%;
     scale: .5;
 }
 
 #limpiarBtn{
     position: absolute;
-    margin-top: 160%;
-    margin-left: -36%;
+    margin-top: 172%;
+    margin-left: -35%;
     scale: .5;
 
 }
@@ -848,17 +773,229 @@ header h1{
 .rayoslaser{
     margin-left: -15%;
     scale: .5;
-    margin-bottom: -10%;
+    margin-bottom: -45%;
 }
 
 
 footer{
     position: absolute;
-    margin-bottom: -10%;
+    margin-bottom: -45%;
     width: 100%;
     }
+
+}
+@media screen and ( min-width:355px) and (max-width: 365px) and ( min-height:735px) and (max-height: 750px){
+
+body{
+    height: 100vh;
 }
 
+.logolatam{
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    scale: 1.2;
+}
+
+header h1{
+    position: absolute;
+    top: 15px;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 0%;
+}
+
+.container-btn-mode{
+    position: absolute;
+    margin-top: -1%;
+    margin-right: -10%;
+    scale: .5;
+}
+
+.textarea, .text-area, .botones{
+    margin: auto;
+    padding-left: auto;  
+    width: 361px;  
+}
+
+.botones{
+    position: absolute;
+    margin-left: -25%;
+}
+.text-area{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin-left: -21%;
+    margin-top: 8%;
+    scale: .6;
+}
+
+.mensaje{
+    position: absolute;
+    margin-top: 79%;
+    scale: .6;
+    margin-left: -26%;
+}
+
+.informacion{
+    position: absolute;
+    margin-top: 80%;
+    margin-left: -6%;
+    font-size: 11px;
+}
+
+.button-desencriptar{
+    position: absolute;
+    margin-top: 80%;
+    margin-left: 32%;
+    scale: .5;
+}
+
+.button-encriptar{
+    position: absolute;
+    margin-top: 80%;
+    margin-left: -16%;
+    scale: .5;
+}
+
+.copiar{
+    position: absolute;
+    margin-top: 165%;
+    margin-left: 5%;
+    scale: .5;
+}
+
+#limpiarBtn{
+    position: absolute;
+    margin-top: 165%;
+    margin-left: -42%;
+    scale: .5;
+
+}
+
+.rayoslaser{
+    margin-left: -15%;
+    scale: .5;
+    margin-bottom: -45%;
+}
+
+
+footer{
+    position: absolute;
+    margin-bottom: -45%;
+    width: 100%;
+    }
+
+}
+@media screen and ( min-width:374px) and (max-width: 380px) and ( min-height:790px) and (max-height: 820px){
+
+body{
+    height: 100vh;
+}
+
+.logolatam{
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    scale: 1.5;
+}
+
+header h1{
+    position: absolute;
+    top: 15px;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 0%;
+}
+
+.container-btn-mode{
+    position: absolute;
+    margin-top: -1%;
+    margin-right: -10%;
+    scale: .5;
+}
+
+.textarea, .text-area, .botones{
+    margin: auto;
+    padding-left: auto;  
+    width: 361px;  
+}
+
+.botones{
+    position: absolute;
+    margin-left: -25%;
+}
+.text-area{
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    margin-left: -22%;
+    margin-top: 8%;
+    scale: .6;
+}
+
+.mensaje{
+    position: absolute;
+    margin-top: 79%;
+    scale: .6;
+    margin-left: -24%;
+}
+
+.informacion{
+    position: absolute;
+    margin-top: 80%;
+    margin-left: -8%;
+    font-size: 12px;
+}
+
+.button-desencriptar{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 42%;
+    scale: .6;
+}
+
+.button-encriptar{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: -19%;
+    scale: .6;
+}
+
+.copiar{
+    position: absolute;
+    margin-top: 175%;
+    margin-left: 8%;
+    scale: .52;
+}
+
+#limpiarBtn{
+    position: absolute;
+    margin-top: 175%;
+    margin-left: -38%;
+    scale: .52;
+
+}
+
+.rayoslaser{
+    margin-left: -15%;
+    scale: .5;
+    margin-bottom: -45%;
+}
+
+
+footer{
+    position: absolute;
+    margin-bottom: -45%;
+    width: 100%;
+    }
+
+}
 @media screen and ( min-width:395px) and (max-width: 415px){
 
 body{
@@ -875,18 +1012,24 @@ body{
 
 header h1{
     position: absolute;
-    top: 0;
-    padding-top: 7%;
+    top: 15px;
+    padding-top: 12%;
     text-align: center;
-    font-size: 18px;
-    margin-left: 10%;
-    scale: .9;
+    font-size: 15px;
+    margin-left: 0%;
+}
+
+.container-btn-mode{
+    position: absolute;
+    margin-top: -1%;
+    margin-right: -10%;
+    scale: .5;
 }
 
 .textarea, .text-area, .botones{
     margin: auto;
-    padding-left: auto;   
-    width: 100%; 
+    padding-left: auto;  
+    width: 361px;  
 }
 
 .botones{
@@ -895,674 +1038,395 @@ header h1{
 }
 .text-area{
     width: 100%;
+    height: 400px;
     position: absolute;
-    margin-left: -18%;
-    margin-top: -5%;
-    scale: .7;
+    margin-left: -20%;
+    margin-top: 8%;
+    scale: .6;
 }
 
 .mensaje{
-    position: absolute;
-    margin-top: 70%;
-    scale: .6;
-    margin-left: -16%;
-}
-
-.informacion{
-    position: absolute;
-    margin-top: 70%;
-    margin-left:-5%;
-    font-size: 13px;
-}
-
-.button-desencriptar{
-    position: absolute;
-    margin-top: 75%;
-    margin-left: 39%;
-    scale: .5;
-}
-
-.button-encriptar{
-    position: absolute;
-    margin-top: 75%;
-    margin-left: -6%;
-    scale: .5;
-}
-
-.copiar{
-    position: absolute;
-    margin-top: 163%;
-    margin-left: 14%;
-    scale: .5;
-}
-
-#limpiarBtn{
-    position: absolute;
-    margin-top: 163%;
-    margin-left: -32%;
-    scale: .5;
-
-}
-
-.rayoslaser{
-    margin-left: -15%;
-    scale: .5;
-    margin-bottom: -10%;
-}
-
-
-footer{
-    position: absolute;
-    margin-bottom: -10%;
-    width: 100%;
-    }
-}
-
-@media screen and ( min-width:410px) and (max-width: 430px) and ( min-height:920px) and (max-height: 930px){
-
-body{
-    height: 100vh;
-}
-
-.logolatam{
-    padding-top: 10px;
-    padding-left: 10px;
-    position: absolute;
-    top: 0;
-    scale: 1.5;
-}
-
-header h1{
-    position: absolute;
-    top: 0;
-    padding-top: 7%;
-    text-align: center;
-    font-size: 18px;
-    margin-left: 10%;
-    scale: .9;
-}
-
-.textarea, .text-area, .botones{
-    margin: auto;
-    padding-left: auto;   
-    width: 100%; 
-}
-
-.botones{
-    position: absolute;
-    margin-left: -25%;
-}
-.text-area{
-    width: 100%;
-    position: absolute;
-    margin-left: -19%;
-    margin-top: -2%;
-    scale: .7;
-}
-
-.mensaje{
-    position: absolute;
-    margin-top: 62%;
-    scale: .6;
-    margin-left: -22%;
-}
-
-.informacion{
-    position: absolute;
-    margin-top: 60%;
-    margin-left:-10%;
-    font-size: 13px;
-}
-
-.button-desencriptar{
-    position: absolute;
-    margin-top: 82%;
-    margin-left: 39%;
-    scale: .6;
-}
-
-.button-encriptar{
-    position: absolute;
-    margin-top: 82%;
-    margin-left: -18%;
-    scale: .6;
-}
-
-.copiar{
-    position: absolute;
-    margin-top: 153%;
-    margin-left: 8%;
-    scale: .5;
-}
-
-#limpiarBtn{
-    position: absolute;
-    margin-top: 153%;
-    margin-left: -39%;
-    scale: .5;
-
-}
-
-.rayoslaser{
-    margin-left: -15%;
-    scale: .5;
-    margin-bottom: -10%;
-}
-
-
-footer{
-    position: absolute;
-    margin-bottom: -10%;
-    width: 100%;
-    }
-}
-
-@media screen and ( min-width:370px) and (max-width: 376px) and ( min-height:800px) and (max-height: 820px){
-
-body{
-    height: 100vh;
-}
-
-.logolatam{
-    padding-top: 10px;
-    padding-left: 10px;
-    position: absolute;
-    top: 0;
-    scale: 1.5;
-}
-
-header h1{
-    position: absolute;
-    top: 0;
-    padding-top: 7%;
-    text-align: center;
-    font-size: 18px;
-    margin-left: 10%;
-    scale: .9;
-}
-
-.textarea, .text-area, .botones{
-  margin: auto;
-  padding-left: auto;   
-  width: 100%; 
-}
-
-.botones{
-    position: absolute;
-    margin-left: -25%;
-}
-.text-area{
-    width: 100%;
-    position: absolute;
-    margin-left: -19%;
-    margin-top: -2%;
-    scale: .7;
-}
-
-.mensaje{
-    position: absolute;
-    margin-top: 62%;
-    scale: .6;
-    margin-left: -22%;
-}
-
-.informacion{
-    position: absolute;
-    margin-top: 60%;
-    margin-left:-10%;
-    font-size: 13px;
-}
-
-.button-desencriptar{
-    position: absolute;
-    margin-top: 82%;
-    margin-left: 39%;
-    scale: .6;
-}
-
-.button-encriptar{
-    position: absolute;
-    margin-top: 82%;
-    margin-left: -18%;
-    scale: .6;
-}
-
-.copiar{
-    position: absolute;
-    margin-top: 153%;
-    margin-left: 8%;
-    scale: .5;
-}
-
-#limpiarBtn{
-    position: absolute;
-    margin-top: 153%;
-    margin-left: -39%;
-    scale: .5;
-
-}
-
-.rayoslaser{
-    margin-left: -15%;
-    scale: .5;
-    margin-bottom: -10%;
-}
-
-
-footer{
-    position: absolute;
-    margin-bottom: -10%;
-    width: 100%;
-    }
-}
-
-@media screen and ( min-width:395px) and (max-width: 415px) and ( min-height:730px) and (max-height: 750px){
-
-body{
-     height: 100vh;
-}
-    
-.logolatam{
-    padding-top: 10px;
-    padding-left: 10px;
-    position: absolute;
-    top: 0;
-    scale: 1.5;
-}
-    
-header h1{
-    position: absolute;
-    top: 0;
-    padding-top: 7%;
-    text-align: center;
-    font-size: 18px;
-    margin-left: 10%;
-    scale: .9;
-}
-    
-.textarea, .text-area, .botones{
-    margin: auto;
-    padding-left: auto;   
-    width: 100%; 
-}
-    
-.botones{
-    position: absolute;
-    margin-left: -25%;
-}
-
-.text-area{
-    width: 100%;
-    position: absolute;
-    margin-left: -18%;
-    margin-top: -2%;
-    scale: .7;
-}
-    
-.mensaje{
-    position: absolute;
-    margin-top: 62%;
-    scale: .6;
-    margin-left: -16%;
-}
-    
-.informacion{
-    position: absolute;
-    margin-top: 60%;
-    margin-left:-5%;
-    font-size: 13px;
-}
-    
-.button-desencriptar{
-    position: absolute;
-    margin-top: 65%;
-    margin-left: 39%;
-    scale: .5;
-}
-    
-.button-encriptar{
-     position: absolute;
-     margin-top: 65%;
-    margin-left: -6%;
-    scale: .5;
-}
-    
-.copiar{
-    position: absolute;
-    margin-top: 140%;
-    margin-left: 14%;
-    scale: .5;
- }
-    
-#limpiarBtn{
-    position: absolute;
-    margin-top: 140%;
-    margin-left: -32%;
-    scale: .5;
-}
-    
-.rayoslaser{
-     margin-left: -15%;
-    scale: .5;
-    margin-bottom: -10%;
-    }
-    
-footer{
-    position: absolute;
-    margin-bottom: -10%;
-    width: 100%;
-    }
-}
-    
-@media screen and ( min-width:760px) and (max-width: 770px) and ( min-height:1000px) and (max-height: 1026px){
-
-body{
-    height: 100vh;
-}
-
-.logolatam{
-    padding-top: 30px;
-    padding-left: 30px;
-    position: absolute;
-    top: 0;
-    scale: 1.5;
-}
-
-header h1{
-    position: absolute;
-    top: 0;
-    padding-top: 7%;
-    text-align: center;
-    font-size: 30px;
-    margin-left: 13%;
-}
-
-.textarea, .text-area, .botones{
-    margin: auto;
-    padding-left: auto;   
-    width: 100%; 
-}
-
-.botones{
-    position: absolute;
-    margin-left: -25%;
-}
-.text-area{
-    width: 100%;
-    position: absolute;
-    margin-left: -14%;
-    margin-top: 10%;
-    scale: .8;
-}
-
-.mensaje{
-    position: absolute;
-    margin-top: 68%;
-    scale: .8;
-    height: 370px;
-    margin-left: -4%;
-}
-
-.informacion{
-    position: absolute;
-    margin-top: 55%;
-    margin-left: 10%;
-    font-size: 20px;
-}
-
-.button-desencriptar{
-    position: absolute;
-    margin-top: 60%;
-    margin-left: 69%;
-    scale: .9;
-    
-}
-
-.button-encriptar{
-    position: absolute;
-    margin-top: 60%;
-    margin-left: 23%;
-    scale: .9;
-}
-
-.copiar{
-    position: absolute;
-    margin-top: 79%;
-    margin-left: 43%;
-    scale: .9;
-}
-
-#limpiarBtn{
-    position: absolute;
-    margin-top: 93%;
-    margin-left: 43.5%;
-    scale: .9;
-
-}
-
-.rayoslaser{
-    margin-left: -15%;
-    scale: .5;
-    margin-bottom: -10%;
-}
-
-footer{
-    position: absolute;
-    margin-bottom: -10%;
-    width: 100%;
-    }
-
-.redes-container{
-    scale: 1.2;
-    margin-left: 60%;
- }
-}
-   
-@media screen and ( min-width:740px) and (max-width: 760px) and ( min-height:1560px) and (max-height: 1600px){
-
-body{
-    height: 100vh;
-}
-
-.logolatam{
-    padding-top: 30px;
-    padding-left: 30px;
-    position: absolute;
-    top: 0;
-    scale: 1.5;
-}
-
-header h1{
-    position: absolute;
-    top: 0;
-    padding-top: 7%;
-    text-align: center;
-    font-size: 30px;
-    margin-left: 13%;
-}
-
-.textarea, .text-area, .botones{
-    margin: auto;
-    padding-left: auto;   
-    width: 100%; 
-}
-
-.botones{
-    position: absolute;
-    margin-left: -25%;
-}
-.text-area{
-    width: 100%;
-    position: absolute;
-    margin-left: -14%;
-    margin-top: 10%;
-    scale: .8;
-}
-
-.mensaje{
-    position: absolute;
-    margin-top: 68%;
-    scale: .8;
-    height: 370px;
-    margin-left: -4%;
-}
-
-.informacion{
-    position: absolute;
-    margin-top: 55%;
-    margin-left: 10%;
-    font-size: 20px;
-}
-
-.button-desencriptar{
-    position: absolute;
-    margin-top: 60%;
-    margin-left: 69%;
-    scale: .9;
-    
-}
-
-.button-encriptar{
-    position: absolute;
-    margin-top: 60%;
-    margin-left: 23%;
-    scale: .9;
-}
-
-.copiar{
-    position: absolute;
-    margin-top: 79%;
-    margin-left: 43%;
-    scale: .9;
-}
-
-#limpiarBtn{
-    position: absolute;
-    margin-top: 93%;
-    margin-left: 43.5%;
-    scale: .9;
-
-}
-
-.rayoslaser{
-    margin-left: -15%;
-    scale: .5;
-    margin-bottom: -10%;
-}
-
-footer{
-    position: absolute;
-    margin-bottom: -10%;
-    width: 100%;
-    }
-
-.redes-container{
-    scale: 1.2;
-    margin-left: 60%;
-    }
-}
-      
-@media screen and ( min-width:800px) and (max-width: 825px){
-
-body{
-    height: 100vh;
-}
-
-.logolatam{
-    padding-top: 30px;
-    padding-left: 30px;
-    position: absolute;
-    top: 0;
-    scale: 1.5;
-}
-
-header h1{
-    position: absolute;
-    top: 0;
-    padding-top: 7%;
-    text-align: center;
-    font-size: 20px;
-    margin-left: 17%;
-}
-
-.textarea, .text-area, .botones{
-    margin: auto;
-    padding-left: auto;   
-    width: 100%; 
-}
-
-.botones{
-    position: absolute;
-    margin-left: -25%;
-}
-.text-area{
-    width: 100%;
-    position: absolute;
-    margin-left: -9%;
-    margin-top: 5%;
-    scale: .8;
-}
-
-.mensaje{
-    position: absolute;
-    margin-top: 72%;
-    scale: .8;
-    height: 500px;
-    margin-left: -4%;
-}
-
-.informacion{
-    position: absolute;
-    margin-top: 60%;
-    margin-left: 13%;
-    font-size: 20px;
-}
-
-.button-desencriptar{
-    position: absolute;
-    margin-top: 66%;
-    margin-left: 69%;
-    
-}
-
-.button-encriptar{
-    position: absolute;
-    margin-top: 66%;
-    margin-left: 23%;
-}
-
-.copiar{
     position: absolute;
     margin-top: 89%;
-    margin-left: 43%;
+    scale: .6;
+    margin-left: -17%;
+}
+
+.informacion{
+    position: absolute;
+    margin-top: 90%;
+    margin-left: -9%;
+    font-size: 15px;
+}
+
+.button-desencriptar{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 47%;
+    scale: .55;
+}
+
+.button-encriptar{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: -7%;
+    scale: .55;
+}
+
+.copiar{
+    position: absolute;
+    margin-top: 185%;
+    margin-left: 15%;
+    scale: .55;
 }
 
 #limpiarBtn{
     position: absolute;
-    margin-top: 103%;
-    margin-left: 43.5%;
+    margin-top: 185%;
+    margin-left: -32%;
+    scale: .55;
 
 }
 
 .rayoslaser{
     margin-left: -15%;
     scale: .5;
-    margin-bottom: -10%;
+    margin-bottom: -45%;
 }
 
 
 footer{
     position: absolute;
-    margin-bottom: -10%;
+    margin-bottom: -45%;
+    width: 100%;
+    }
+
+}
+
+@media screen and ( min-width:410px) and (max-width: 420px) and ( min-height:710px) and (max-height: 745px){
+
+body{
+    height: 100vh;
+}
+
+.logolatam{
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    scale: 1.5;
+}
+
+header h1{
+    position: absolute;
+    top: 15px;
+    padding-top: 12%;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 0%;
+}
+
+.container-btn-mode{
+    position: absolute;
+    margin-top: -1%;
+    margin-right: -10%;
+    scale: .5;
+}
+
+.textarea, .text-area, .botones{
+    margin: auto;
+    padding-left: auto;  
+    width: 361px;  
+}
+
+.botones{
+    position: absolute;
+    margin-left: -25%;
+}
+.text-area{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 8%;
+    scale: .6;
+}
+
+.mensaje{
+    position: absolute;
+    margin-top: 95%;
+    scale: .6;
+    margin-left: -17%;
+}
+
+.informacion{
+    position: absolute;
+    margin-top: 90%;
+    margin-left: -9%;
+    font-size: 15px;
+}
+
+.button-desencriptar{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 47%;
+    scale: .55;
+}
+
+.button-encriptar{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: -7%;
+    scale: .55;
+}
+
+.copiar{
+    position: absolute;
+    margin-top: 175%;
+    margin-left: 15%;
+    scale: .55;
+}
+
+#limpiarBtn{
+    position: absolute;
+    margin-top: 175%;
+    margin-left: -32%;
+    scale: .55;
+
+}
+
+.rayoslaser{
+    margin-left: -15%;
+    scale: .5;
+    margin-bottom: -45%;
+}
+
+
+footer{
+    position: absolute;
+    margin-bottom: -45%;
+    width: 100%;
+    }
+
+}
+
+@media screen and ( min-width:760px) and (max-width: 780px) and ( min-height:1000px) and (max-height: 1050px){
+
+body{
+    height: 100vh;
     width: 100%;
 }
 
-.redes-container{
-    scale: 1.2;
-    margin-left: 60%;
- }
+.logolatam{
+    padding-top: 15px;
+    padding-left: 30px;
+    position: absolute;
+    top: 0;
+    scale: 1.5;
 }
 
+header h1{
+    position: absolute;
+    top: 15px;
+    padding-top: 12%;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0%;
+}
+
+.container-btn-mode{
+    position: absolute;
+    margin-top: -1%;
+    margin-right: 1%;
+    scale: .9;
+}
+
+.textarea, .text-area, .botones{
+    margin: auto;
+    padding-left: auto;  
+    width: 361px;  
+}
+
+.botones{
+    position: absolute;
+    margin-left: -25%;
+}
+.text-area{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-left: -11%;
+    margin-top: 17%;
+    scale: .8;
+}
+
+.mensaje{
+    width: 600px;
+    position: absolute;
+    margin-top: 80%;
+    scale: .8;
+    margin-left: 1%;
+}
+
+.informacion{
+    position: absolute;
+    margin-top: 66%;
+    margin-left: 3%;
+    font-size: 25px;
+}
+
+.button-desencriptar{
+    position: absolute;
+    margin-top: 155%;
+    margin-left: 145%;
+    scale: .9;
+}
+
+.button-encriptar{
+    position: absolute;
+    margin-top: 155%;
+    margin-left: 40%;
+    scale: .9;
+}
+
+.copiar{
+    position: absolute;
+    margin-top: 154%;
+    margin-left: 38%;
+    scale: .9;
+}
+
+#limpiarBtn{
+    position: absolute;
+    margin-top: 154%;
+    margin-left: -2%;
+    scale: .9;
+
+}
+
+.rayoslaser{
+    margin-left: -15%;
+    scale: .5;
+    margin-bottom: -45%;
+}
+
+
+footer{
+    position: absolute;
+    margin-bottom: -45%;
+    width: 100%;
+    }
+
+}
+
+@media screen and ( min-width:1000px) and (max-width: 1050px) and ( min-height:750px) and (max-height: 780px){
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.logolatam{
+    padding-top: 15px;
+    padding-left: 30px;
+    position: absolute;
+    top: 0;
+    scale: 1.5;
+}
+
+header h1{
+    position: absolute;
+    top: 15px;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 15%;
+}
+
+.container-btn-mode{
+    position: absolute;
+    margin-top: -1%;
+    margin-right: 1%;
+    scale: .9;
+}
+
+.textarea, .text-area, .botones{
+    margin: auto;
+    padding-left: auto;  
+    width: 361px;  
+}
+
+.botones{
+    position: absolute;
+    margin-left: -25%;
+}
+.text-area{
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    margin-left: -8%;
+    margin-top: 10%;
+    scale: .8;
+}
+
+.mensaje{
+    width: 1000px;
+    position: absolute;
+    margin-top: 61%;
+    scale: .8;
+    margin-left: -8%;
+}
+
+.informacion{
+    position: absolute;
+    margin-top: 46%;
+    margin-left: 15%;
+    font-size: 25px;
+}
+
+.button-desencriptar{
+    position: absolute;
+    margin-top: 150%;
+    margin-left: 210%;
+    scale: .9;
+}
+
+.button-encriptar{
+    position: absolute;
+    margin-top: 150%;
+    margin-left: 70%;
+    scale: .9;
+}
+
+.copiar{
+    position: absolute;
+    margin-top: 102%;
+    margin-left: 48%;
+    scale: .9;
+}
+
+#limpiarBtn{
+    position: absolute;
+    margin-top: 102%;
+    margin-left: 0%;
+    scale: .9;
+
+}
+
+.rayoslaser{
+    margin-left: -15%;
+    scale: .5;
+    margin-bottom: -45%;
+}
+
+
+footer{
+    position: absolute;
+    margin-bottom: -45%;
+    width: 100%;
+    }
+
+}
 @media screen and ( min-width:1700px) and (max-width: 2120px){
 
 header h1{
@@ -1613,7 +1477,7 @@ header h1{
     position: absolute;
     margin-top: 34%;
     margin-left: 40%;
- }
+}
 }
 
 
